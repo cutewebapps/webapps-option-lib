@@ -34,7 +34,7 @@ class Option_Update extends App_Update
                   `opt_id`          int(11)   NOT NULL AUTO_INCREMENT,
                   `opt_key`         char(64)  NOT NULL,
                   `opt_is_public`   int(2)    NOT NULL DEFAULT \'0\',
-                  `opt_value`       text      NOT NULL DEFAULT \'\',
+                  `opt_value`       text,
                   KEY `i_opt_key` (`opt_key`) ', 'opt_id' );
         }
     }
